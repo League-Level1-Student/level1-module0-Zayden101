@@ -16,14 +16,14 @@ public class MyFirstSwingGUI {
 	public void run() {
 
 		// 1. Declare and initialize an object of the JFrame class
-
+JFrame j = new JFrame();
 		// 2. Set your JFrame object to be visible
-
+j.setVisible(true);
 		// 3. Open MyFirstSwingGUIRunner and run your program. Do you see your window? It's probably very
 		// small.
 
 		// 4. Use your JFrame to call setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
-
+j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 5. Declare and initialize an object of the JPanel class
 
 		// 6. Declare and initialize an object of the JLabel class
@@ -50,7 +50,7 @@ public class MyFirstSwingGUI {
 		try {
 			return new ImageIcon(ImageIO.read(new MyFirstSwingGUI().getClass().getResourceAsStream("java.png")));
 		} catch (IOException e) {
-			e.printStackTrace()
+			e.printStackTrace();
 			return null;
 		}
 	}
