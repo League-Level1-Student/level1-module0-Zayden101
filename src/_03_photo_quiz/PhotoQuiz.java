@@ -25,20 +25,28 @@ public class PhotoQuiz {
 
 		// 1. find an image on the internet, and put its URL in a String
 		// variable (from your browser, right click on the image, and select
-		// “Copy Image Address”)
-
+String e="https://www.drodd.com/images16/e1.png";
 		// 2. create a variable of type "Component" that will hold your image
-
+Component o;
 		// 3. use the "createImage()" method below to initialize your Component
-
+o=createImage(e);
 		// 4. add the image to the quiz window
-
+quizWindow.add(o);
 		// 5. call the pack() method on the quiz window
-
+quizWindow.pack();
 		// 6. ask a question that relates to the image
+for (int i = 0; i < 5; i++) {
 
+String s=JOptionPane.showInputDialog("what letter is this");
 		// 7. print "CORRECT" if the user gave the right answer
-
+if (s.equals("E")){
+	JOptionPane.showMessageDialog(null, "good job");
+	System.exit(0);
+}
+else {
+	JOptionPane.showMessageDialog(null, "no");
+}
+}
 		// 8. print "INCORRECT" if the answer is wrong
 
 		// 9. remove the component from the quiz window (you may not see the
