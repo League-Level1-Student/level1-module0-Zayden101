@@ -35,32 +35,42 @@ quizWindow.add(o);
 		// 5. call the pack() method on the quiz window
 quizWindow.pack();
 		// 6. ask a question that relates to the image
-for (int i = 0; i < 5; i++) {
 
 String s=JOptionPane.showInputDialog("what letter is this");
 		// 7. print "CORRECT" if the user gave the right answer
 if (s.equals("E")){
 	JOptionPane.showMessageDialog(null, "good job");
-	System.exit(0);
 }
 else {
 	JOptionPane.showMessageDialog(null, "no");
 }
-}
+
 		// 8. print "INCORRECT" if the answer is wrong
 
 		// 9. remove the component from the quiz window (you may not see the
 		// effect of this until step 12)
-
+quizWindow.remove(o);
 		// 10. find another image and create it (might take more than one line
 		// of code)
-
+String a="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Temporary_file_letter_A.svg/1200px-Temporary_file_letter_A.svg.png";
 		// 11. add the second image to the quiz window
+ Component p;
+ 
+ p=createImage(a);
 
-		// 12. pack the quiz window
+ quizWindow.add(p);
+
+quizWindow.pack();
 
 		// 13. ask another question
-
+String q=JOptionPane.showInputDialog("what letter is this");
+// 7. print "CORRECT" if the user gave the right answer
+if (q.equals("A")){
+JOptionPane.showMessageDialog(null, "good job");
+}
+else {
+JOptionPane.showMessageDialog(null, "no");
+}
 		// 14+ check answer, say if correct or incorrect, etc.
 
 	}
