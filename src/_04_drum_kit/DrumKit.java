@@ -28,18 +28,18 @@ public class DrumKit implements MouseListener {
 	public void run() throws MalformedURLException {
 
 		// 1. Make a JFrame variable and initialize it using "new JFrame()"
-
+JFrame f = new JFrame();
 		// 2. Make the frame visible and
 		// set its default close operation to JFrame.EXIT_ON_CLOSE
 
 		// 3. Set the size of the frame
-
+f.setSize(100, 100);
 		// 4. Set the title of the frame
-
+f.setTitle("frame");
 		// 5. Make a JPanel variable and initialize it using "new JPanel().
-
+JPanel j = new JPanel();
 		// 6. Add the panel to the frame. (The panel is invisible.)
-
+f.add(j);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "recipe package(drum_kit)".
 
