@@ -5,6 +5,7 @@ package _04_drum_kit;
  */
 
 
+import java.awt.Component;
 import java.awt.GridLayout;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -42,7 +43,7 @@ JPanel j = new JPanel();
 f.add(j);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "recipe package(drum_kit)".
-
+String d="https://th.bing.com/th/id/OIP.LL73R_OxUGlzu8VLnlRjkQHaFJ?w=237&h=180&c=7&o=5&dpr=1.45&pid=1.7";
 		// 8. Put the name of your image file in a String variable.
 
 		// 9. Edit the next line to use your String variable
