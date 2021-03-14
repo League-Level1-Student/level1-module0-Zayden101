@@ -43,19 +43,20 @@ JPanel j = new JPanel();
 f.add(j);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "recipe package(drum_kit)".
-String d="https://th.bing.com/th/id/OIP.LL73R_OxUGlzu8VLnlRjkQHaFJ?w=237&h=180&c=7&o=5&dpr=1.45&pid=1.7";
+String d= "drum.jfif";
 		// 8. Put the name of your image file in a String variable.
 
 		// 9. Edit the next line to use your String variable
 		// drumLabelWithImage = createLabelImage(drumImageString);
+drumLabelWithImage = createLabelImage(d);
 
 		// 10. Add the image to the panel
-
+j.add(drumLabelWithImage);
 		// 11. Set the layout of the panel to "new GridLayout()"
-
+j.setLayout(new GridLayout());
 		// 12. call the pack() method on the frame. Run your program. Do you see
 		// your drum image?
-
+f.pack();
 		// 13. add this mouse listener to drumLabelWithImage
 
 		// 18. Add more images to make a drumkit. Remember to add this mouse
