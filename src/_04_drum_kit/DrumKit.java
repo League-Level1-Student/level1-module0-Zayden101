@@ -35,7 +35,7 @@ JFrame f = new JFrame();
 f.setVisible(true);
 f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 3. Set the size of the frame
-f.setSize(100, 100);
+f.setSize(500, 500);
 		// 4. Set the title of the frame
 f.setTitle("frame");
 		// 5. Make a JPanel variable and initialize it using "new JPanel().
