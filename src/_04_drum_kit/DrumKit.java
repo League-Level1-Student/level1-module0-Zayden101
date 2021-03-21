@@ -32,7 +32,8 @@ public class DrumKit implements MouseListener {
 JFrame f = new JFrame();
 		// 2. Make the frame visible and
 		// set its default close operation to JFrame.EXIT_ON_CLOSE
-
+f.setVisible(true);
+f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 3. Set the size of the frame
 f.setSize(100, 100);
 		// 4. Set the title of the frame
@@ -43,7 +44,7 @@ JPanel j = new JPanel();
 f.add(j);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "recipe package(drum_kit)".
-String d= "drum.jfif";
+String d= "cymbal.jpg";
 		// 8. Put the name of your image file in a String variable.
 
 		// 9. Edit the next line to use your String variable
@@ -58,7 +59,7 @@ j.setLayout(new GridLayout());
 		// your drum image?
 f.pack();
 		// 13. add this mouse listener to drumLabelWithImage
-
+drumLabelWithImage.addMouseListener(this);
 		// 18. Add more images to make a drumkit. Remember to add this mouse
 		// listener to each one.
 
@@ -67,7 +68,7 @@ f.pack();
 	public void mouseClicked(MouseEvent e) {
 		// 14. Print "mouse clicked" to the console. Run your program and watch
 		// the console to see when this is printed.
-
+System.out.println("mouse click");
 		JLabel drumClicked = (JLabel) e.getSource(); // This line gets the label
 														// that the mouse
 														// clicked on
@@ -77,10 +78,12 @@ f.pack();
 		// leagueofamazing/code4life.
 
 		// 16. If they clicked on the drumImage...
+if (drumClicked == drumLabelWithImage) {
 
 		// 17. ...use the playSound method to play a drum sound. Test to see if
 		// it works
-
+playSound("cymbal.wav");
+}
 	}
 
 	private JLabel createLabelImage(String fileName) throws MalformedURLException {
