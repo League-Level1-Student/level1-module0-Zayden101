@@ -82,7 +82,8 @@ if (drumClicked == drumLabelWithImage) {
 
 		// 17. ...use the playSound method to play a drum sound. Test to see if
 		// it works
-playSound("cymbal.wav");
+playSound("drum.wav");
+//playSound("cymbal.wav");
 }
 	}
 
