@@ -15,9 +15,10 @@ import javax.swing.JPanel;
 
 public class DuelingButtons implements ActionListener {
 
-	JButton leftButton = new JButton();
 	JButton rightButton = new JButton();
+	JButton leftButton = new JButton();
 
+	
 	Dimension BIG = new Dimension(400, 400);
 	Dimension SMALL = new Dimension(200, 200);
 
