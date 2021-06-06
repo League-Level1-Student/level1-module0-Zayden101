@@ -8,6 +8,7 @@ public static void main(String[] args) {
 Robot a=new Robot();
 a.miniaturize();
 a.setSpeed(999);
+a.setPenWidth(5);
 a.penDown();
 a.setRandomPenColor();
 for (int i = 0; i < 35; i++) {
