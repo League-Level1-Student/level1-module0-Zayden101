@@ -18,10 +18,7 @@ public class sem {
 		frame.add(button1);
 		frame.pack();
 		
-		JButton button2 = new JButton();
-		frame.add(button2);
-		frame.pack();
-		
+	
 	}
 		
 }
