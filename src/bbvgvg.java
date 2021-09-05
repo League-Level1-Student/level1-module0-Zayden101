@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	
 for (int i = 0; i < 1000; i++) {
 	a.penDown();
-	x+=3;
+	x+=2;
 	a.move(x);
 	a.turn(90);
 }
