@@ -13,12 +13,12 @@ public static void main(String[] args) {
 	a.turn(90);
 	a.move(150);
 	
-//for (int i = 0; i < 1000; i++) {
-//	a.penDown();
-//	x+=2;
-//	a.move(x);
-//	a.turn(90);
-//}
+  for (int i = 0; i < 1000; i++) {
+  	a.penDown();
+  	x+=2;
+  	a.move(x);
+  	a.turn(90);
+  }
 	
 //for (int i = 0; i < 2000; i++) {
 //	a.penDown();
@@ -50,13 +50,13 @@ public static void main(String[] args) {
 //		
 //	}
   
-  for (int i = 0; i < 235; i++) {
-		a.penDown();
-		x+=4;
-		a.move(x);
-		a.turn(175);
+//  for (int i = 0; i < 235; i++) {
+//		a.penDown();
+//		x+=4;
+//		a.move(x);
+//		a.turn(175);
 		
-	}
+//	}
   
   
 }
