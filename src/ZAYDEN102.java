@@ -1,6 +1,6 @@
 import org.jointheleague.graphical.robot.Robot;
 
-public class ZAYDEN101 {
+public class ZAYDEN102 {
 
 	public static void main(String[] args) {
 		
@@ -11,16 +11,16 @@ public class ZAYDEN101 {
 		a.miniaturize();;
 		a.hide();
 		
-		a.moveTo(900,450);
+		a.moveTo(900,550);
 		
-		for (int o = 0; o < 4; o++) {
+		for (int o = 0; o < 8; o++) {
 			
 		for (int i = 0; i < 9; i++) {
-		a.move(100);
+		a.move(50);
 		a.turn(-135);
 		}
 		
-		a.turn(45);
+		a.turn(90);
 		
 		}
 		
@@ -32,23 +32,23 @@ public class ZAYDEN101 {
 		b.miniaturize();
 		b.hide();
 		
-		b.moveTo(900,450);
+		b.moveTo(900,590);
 		
-		b.move(-50);
+		b.move(-25);
 		b.turn(90);
-		b.move(50);
+		b.move(25);
 		b.turn(-90);
 		
 		b.penDown();
 		
-		for (int o = 0; o < 4; o++) {
+		for (int o = 0; o < 8; o++) {
 			
 		for (int i = 0; i < 9; i++) {
-		b.move(200);
+		b.move(100);
 		b.turn(-135);
 		}
 		
-		b.turn(45);
+		b.turn(90);
 		
 		}
 		
@@ -60,23 +60,23 @@ public class ZAYDEN101 {
 		c.miniaturize();
 		c.hide();
 		
-		c.moveTo(900,450);
+		c.moveTo(900,600);
 		
-		c.move(-100);
+		c.move(-50);
 		c.turn(90);
-		c.move(100);
+		c.move(50);
 		c.turn(-90);
 		
 		c.penDown();
 				
-		for (int o = 0; o < 4; o++) {
+		for (int o = 0; o < 8; o++) {
 			
 		for (int i = 0; i < 9; i++) {
-		c.move(300);
+		c.move(150);
 		c.turn(-135);
 		}
 		
-		c.turn(45);
+		c.turn(90);
 		
 		}
 		
@@ -87,23 +87,23 @@ public class ZAYDEN101 {
 		d.miniaturize();
 		d.hide();
 		
-		d.moveTo(900,450);
+		d.moveTo(900,600);
 		
-		d.move(-150);
+		d.move(-75);
 		d.turn(90);
-		d.move(150);
+		d.move(75);
 		d.turn(-90);
 		
 		d.penDown();
 		
-		for (int o = 0; o < 4; o++) {
+		for (int o = 0; o < 8; o++) {
 			
 		for (int i = 0; i < 9; i++) {
-		d.move(400);
+		d.move(200);
 		d.turn(-135);
 		}
 		
-		d.turn(45);
+		d.turn(90);
 		
 		}
 		
@@ -115,23 +115,23 @@ public class ZAYDEN101 {
 		e.miniaturize();
 		e.hide();
 		
-		e.moveTo(900,450);
+		e.moveTo(900,600);
 		
-		e.move(-200);
+		e.move(-100);
 		e.turn(90);
-		e.move(200);
+		e.move(100);
 		e.turn(-90);
 		
 		e.penDown();
 				
-		for (int o = 0; o < 4; o++) {
+		for (int o = 0; o < 8; o++) {
 			
 		for (int i = 0; i < 9; i++) {
-		e.move(500);
+		e.move(250);
 		e.turn(-135);
 		}
 		
-		e.turn(45);
+		e.turn(90);
 		
 		}
 		

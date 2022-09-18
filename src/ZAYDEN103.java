@@ -1,6 +1,6 @@
 import org.jointheleague.graphical.robot.Robot;
 
-public class ZAYDEN101 {
+public class ZAYDEN103 {
 
 	public static void main(String[] args) {
 		
@@ -11,13 +11,13 @@ public class ZAYDEN101 {
 		a.miniaturize();;
 		a.hide();
 		
-		a.moveTo(900,450);
+		a.moveTo(900,475);
 		
 		for (int o = 0; o < 4; o++) {
 			
 		for (int i = 0; i < 9; i++) {
 		a.move(100);
-		a.turn(-135);
+		a.turn(-100);
 		}
 		
 		a.turn(45);
@@ -32,7 +32,7 @@ public class ZAYDEN101 {
 		b.miniaturize();
 		b.hide();
 		
-		b.moveTo(900,450);
+		b.moveTo(900,475);
 		
 		b.move(-50);
 		b.turn(90);
@@ -45,7 +45,7 @@ public class ZAYDEN101 {
 			
 		for (int i = 0; i < 9; i++) {
 		b.move(200);
-		b.turn(-135);
+		b.turn(-100);
 		}
 		
 		b.turn(45);
@@ -60,7 +60,7 @@ public class ZAYDEN101 {
 		c.miniaturize();
 		c.hide();
 		
-		c.moveTo(900,450);
+		c.moveTo(900,475);
 		
 		c.move(-100);
 		c.turn(90);
@@ -73,7 +73,7 @@ public class ZAYDEN101 {
 			
 		for (int i = 0; i < 9; i++) {
 		c.move(300);
-		c.turn(-135);
+		c.turn(-100);
 		}
 		
 		c.turn(45);
@@ -86,54 +86,7 @@ public class ZAYDEN101 {
 		d.setAngle(90);
 		d.miniaturize();
 		d.hide();
-		
-		d.moveTo(900,450);
-		
-		d.move(-150);
-		d.turn(90);
-		d.move(150);
-		d.turn(-90);
-		
-		d.penDown();
-		
-		for (int o = 0; o < 4; o++) {
-			
-		for (int i = 0; i < 9; i++) {
-		d.move(400);
-		d.turn(-135);
-		}
-		
-		d.turn(45);
-		
-		}
-		
-		
-		
-		Robot e = new Robot();
-		e.setSpeed(99999);
-		e.setAngle(90);
-		e.miniaturize();
-		e.hide();
-		
-		e.moveTo(900,450);
-		
-		e.move(-200);
-		e.turn(90);
-		e.move(200);
-		e.turn(-90);
-		
-		e.penDown();
-				
-		for (int o = 0; o < 4; o++) {
-			
-		for (int i = 0; i < 9; i++) {
-		e.move(500);
-		e.turn(-135);
-		}
-		
-		e.turn(45);
-		
-		}
+
 		
 
 		

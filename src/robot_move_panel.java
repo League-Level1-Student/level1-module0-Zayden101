@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class move {
+public class robot_move_panel {
 public static void main(String[] args) {
 
 int ang = 0;
