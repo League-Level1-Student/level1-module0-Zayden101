@@ -28,7 +28,7 @@ public static void main(String[] args) {
 		x+=z;
 	a.move(x);
 	a.turn(y);
-	a.setPenColor(Color.blue);
+	a.setPenColor(Color.pink);
 	z = new Random().nextInt(5);
 	y = new Random(75).nextInt(120); 
 		x+=z;
@@ -40,7 +40,7 @@ public static void main(String[] args) {
 		x+=z;
 	a.move(x);
 	a.turn(y);
-	a.setPenColor(Color.blue);
+	a.setPenColor(Color.pink);
 	z = new Random().nextInt(5);
 	y = new Random(75).nextInt(120); 
 		x+=z;
