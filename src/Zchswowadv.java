@@ -124,8 +124,8 @@ if (o1.equals("1")) {
 
 						if (o20.equals("2")) {
 							JOptionPane.showMessageDialog(null, "You try to save your iron. You successfully get all yor iron out, but the creeper explodes.");
-							JOptionPane.showMessageDialog(null, "You are now on 2 hearts, and have to be cearful. You have 9 iron ingots, but dont know what to do with them.");
-							JOptionPane.showMessageDialog(null, "Your iron pickaxe is low, and you dont have enough duriblity to make another furnace, and you only have 1 stick.");	
+							JOptionPane.showMessageDialog(null, "You are now on 2 hearts, and have to be cearful. You have 9 iron ingots, only have 1 stick, but you dont know what to do with them.");
+							JOptionPane.showMessageDialog(null, "Your iron pickaxe is low, and you dont have enough duriblity to make another furnace. You can only break 2 more blocks.");	
 							String o21 = JOptionPane.showInputDialog("1: Iron sword/bucket   2: Iron boots,helmet   3: Save it");
 
 							if (o21.equals("1")) {
@@ -142,14 +142,78 @@ if (o1.equals("1")) {
 									JOptionPane.showMessageDialog(null, "Do you want to keep killing zombies, make a run for it, or use your ender pearl.");
 									String o25 = JOptionPane.showInputDialog("1: Keep killing zombies   2: Make a run for it   3: Enderpearl");
 									
-								}
+									if (o25.equals("1")) {
+									JOptionPane.showMessageDialog(null, "You decide to keep killing zombies, you think its too risky being on low health");
+									JOptionPane.showMessageDialog(null, "While killing zombies, a nearby skeleton sees you, and shoots");
+									JOptionPane.showMessageDialog(null, "You fall down into a pit of zombies");
+									JOptionPane.showMessageDialog(null, "Do you want to fight you way out, run away, or block yourself in");
+									String o26 = JOptionPane.showInputDialog("1: Fight   2: Run   3: Block yourself in");
+
+									if (o26.equals("1")) {
+									JOptionPane.showMessageDialog(null, "You aren't going down without a fight");
+									JOptionPane.showMessageDialog(null, "The zombies get a couple hits on you, but your able to kill a couple of them");
+									JOptionPane.showMessageDialog(null, "But evreytime you kill one, two more join in");
+									JOptionPane.showMessageDialog(null, "You are overwhelmed by the ammount of mobs, and accept your fate");
+									
+									JOptionPane.showMessageDialog(null, "DEATH");
+									
+									}
+									
+									if (o26.equals("2")) {
+										JOptionPane.showMessageDialog(null, "You decide to make a run for it");
+										JOptionPane.showMessageDialog(null, "You run down the cave, knowing going up is too risky");
+										JOptionPane.showMessageDialog(null, "You find a revien, but its too dark to see any water");
+										JOptionPane.showMessageDialog(null, "You turn around, and see zombies are coming. You have no other choice");
+										JOptionPane.showMessageDialog(null, "You jump, not knowing whats down there");
+										JOptionPane.showMessageDialog(null, " ");
+										JOptionPane.showMessageDialog(null, "You land in water");
+										JOptionPane.showMessageDialog(null, "You quickly get away, knowing that a any mob could be around the corner");
+										JOptionPane.showMessageDialog(null, "You see some coal ore, and decide to mine it");
+										JOptionPane.showMessageDialog(null, "With only one coal, and a stick, you make 4 torches.");
+										JOptionPane.showMessageDialog(null, "You find yourself in a dead end, and with only 1 block left to mine");
+										JOptionPane.showMessageDialog(null, "Do you want to mine, and hope you get lucky, or !!!!!!!!!");
+										String o27 = JOptionPane.showInputDialog("1: Mine   2: !!!!!!");
+
+										if (o26.equals("1")) {
+											JOptionPane.showMessageDialog(null, "You mine the block, but only see stone, without a pickaxe, you feel like giving up");
+											JOptionPane.showMessageDialog(null, "You turn around, and see a creeper");
+											JOptionPane.showMessageDialog(null, "In a moment of shock, you run through it, and punch it");
+											JOptionPane.showMessageDialog(null, "You managed to get far enough away, and didn't take any damage, but the creeper exploded the wall");
+											JOptionPane.showMessageDialog(null, "You walk forward to get a closer look, and see something");
+											JOptionPane.showMessageDialog(null, "A Mineshaft!");
+											
+
+
+											
+										}
+										
+									}
+									
+									
+									}
+									
+									if (o25.equals("2")) {
+										JOptionPane.showMessageDialog(null, "You decide to make a run for it");
+										JOptionPane.showMessageDialog(null, "You get hit by a skeleton, and get to half a heart");
+										JOptionPane.showMessageDialog(null, "Out of nowhere, another skeleton comes in, and shoots you");
+										
+										JOptionPane.showMessageDialog(null, "DEATH");
+									}
+									
+									
+								}	
+								
 								
 								if (o22.equals("2")) {
 									JOptionPane.showMessageDialog(null, "You decide to go deeper");
 									JOptionPane.showMessageDialog(null, "You make a run for it, but you get hit by a skeleton and zombie");
 									JOptionPane.showMessageDialog(null, "You are now on half a heart, and don't know what to do");
-									JOptionPane.showMessageDialog(null, "You keep going down the cave, but find a dungeon. Out of nowhere a zombie comes, and kills you");
-									
+									JOptionPane.showMessageDialog(null, "You keep going down the cave, but find a revien");
+									JOptionPane.showMessageDialog(null, "You hear something, look up, and see a skeleton");
+									JOptionPane.showMessageDialog(null, "You jump down the revien, but get hit by an arrow before you can make it to the bottom");
+
+									JOptionPane.showMessageDialog(null, "DEATH");
+
 									///===DEATH===///
 
 								}
