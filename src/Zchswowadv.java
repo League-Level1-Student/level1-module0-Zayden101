@@ -122,6 +122,8 @@ if (o1.equals("1")) {
 						JOptionPane.showMessageDialog(null, "However, you get interupted by a creeper. Do you want to jump out of the way, or stay and save your iron");	
 						String o20 = JOptionPane.showInputDialog("1: Save yourself   2: Save your iron");
 
+						JOptionPane.showMessageDialog(null, "!!!continue!!! o20 1");
+						
 						if (o20.equals("2")) {
 							JOptionPane.showMessageDialog(null, "You try to save your iron. You successfully get all yor iron out, but the creeper explodes.");
 							JOptionPane.showMessageDialog(null, "You are now on 2 hearts, and have to be cearful. You have 9 iron ingots, only have 1 stick, but you dont know what to do with them.");
@@ -171,11 +173,12 @@ if (o1.equals("1")) {
 										JOptionPane.showMessageDialog(null, "You see some coal ore, and decide to mine it");
 										JOptionPane.showMessageDialog(null, "With only one coal, and a stick, you make 4 torches.");
 										JOptionPane.showMessageDialog(null, "You find yourself in a dead end, and with only 1 block left to mine");
+										JOptionPane.showMessageDialog(null, "You see a hole in the wall, but cant see anything through it");
 										JOptionPane.showMessageDialog(null, "Do you want to mine, and hope you get lucky, or look around for an exit");
 										String o27 = JOptionPane.showInputDialog("1: Mine   2: Look for an exit");
 
-										if (o26.equals("1")) {
-											JOptionPane.showMessageDialog(null, "You mine the block, but only see stone, without a pickaxe, you feel like giving up");
+										if (o27.equals("1")) {
+											JOptionPane.showMessageDialog(null, "You mine the block, but see that there is only more blocks in the way, without a pickaxe, you feel like giving up");
 											JOptionPane.showMessageDialog(null, "You turn around, and see a creeper");
 											JOptionPane.showMessageDialog(null, "In a moment of shock, you run through it, and punch it");
 											JOptionPane.showMessageDialog(null, "You managed to get far enough away, and didn't take any damage, but the creeper exploded the wall");
@@ -184,20 +187,45 @@ if (o1.equals("1")) {
 											JOptionPane.showMessageDialog(null, "You find a safe way to get down, and you start getting wood");
 											JOptionPane.showMessageDialog(null, "You see a chest minecart, but right next to it is a cave spider spawner");
 											JOptionPane.showMessageDialog(null, "Do you want to risk it for the chest minecraft, or leave it behind and get to a safe place");
+											String o28 = JOptionPane.showInputDialog("1: Risk it   2: Leave it");
 
+											
+											
+											if (o28.equals("1")) {
+												JOptionPane.showMessageDialog(null, "You decide to risk it");
+												JOptionPane.showMessageDialog(null, "You make a run for it, catching the sight of multple spiders");
+												JOptionPane.showMessageDialog(null, "They come after you, but your faster");
+												JOptionPane.showMessageDialog(null, "You open the chest, and see diamonds");
+												JOptionPane.showMessageDialog(null, "You quickly take them and continue running, the spiders close behind.");
+												JOptionPane.showMessageDialog(null, "You use wood to block yourself off");
+												JOptionPane.showMessageDialog(null, "With a clear way around you quickly make a crafting table, and craft a sword");
+
+
+
+												String o29 = JOptionPane.showInputDialog("1: Risk it   2: Leave it");
+
+												JOptionPane.showMessageDialog(null, "!!!continue!!! o28 2");
+
+											
 										}
+										
+										JOptionPane.showMessageDialog(null, "!!!continue!!! o27 3");
 										
 									}
 									if (o26.equals("3")) {
+									JOptionPane.showMessageDialog(null, "You decide to block yourself in");
+									JOptionPane.showMessageDialog(null, "They try to sneak in, but you punch them back and manage to be safe");
+									JOptionPane.showMessageDialog(null, "You decide to open a little hold on the bottom");
+									JOptionPane.showMessageDialog(null, "You start to kill zombies, and get rotten flesh to heal");
+									JOptionPane.showMessageDialog(null, "But a baby zombie comes in, and you die");
+									
+									JOptionPane.showMessageDialog(null, "DEATH");
 
-									JOptionPane.showMessageDialog(null, "You decide to keep killing zombies, you think its too risky being on low health");
-									JOptionPane.showMessageDialog(null, "While killing zombies, a nearby skeleton sees you, and shoots");
-									JOptionPane.showMessageDialog(null, "You fall down into a pit of zombies");
-									JOptionPane.showMessageDialog(null, "Do you want to fight you way out, run away, or block yourself in");
-									String o27 = JOptionPane.showInputDialog("1: Fight   2: Run   3: Block yourself in");
+									}									
+
 									
-									
-									}
+									JOptionPane.showMessageDialog(null, "!!!continue!!! o25 2");
+
 									
 									}
 									
@@ -212,6 +240,7 @@ if (o1.equals("1")) {
 
 									}
 									
+									JOptionPane.showMessageDialog(null, "!!!continue!!! o25 3");
 									
 								}	
 								
@@ -237,6 +266,8 @@ if (o1.equals("1")) {
 									JOptionPane.showMessageDialog(null, "You look over towards all the mobs, and decide that its too dangerous to stay, so you decide to go back to the surface.");
 									JOptionPane.showMessageDialog(null, "Do you want to make a run for it, or use your enderpearl");
 									String o23 = JOptionPane.showInputDialog("1: Make a run for it   2: Enderpearl");
+									
+									JOptionPane.showMessageDialog(null, "!!!continue!!! o23 1");
 									
 									if (o23.equals("2")) {
 										JOptionPane.showMessageDialog(null, "You decide to enderpearl.");
@@ -265,6 +296,7 @@ if (o1.equals("1")) {
 											JOptionPane.showMessageDialog(null, "You make it to a dead end, and se a spider quickly coming towards you");
 											String o28 = JOptionPane.showInputDialog("1: Run for it   2: Enderpearl");
 
+											JOptionPane.showMessageDialog(null, "!!!continue!!! o28 1,2");
 											
 										}
 										
@@ -272,8 +304,10 @@ if (o1.equals("1")) {
 										if (o27.equals("2")) {
 											JOptionPane.showMessageDialog(null, "You decide to enderpearl.");
 											JOptionPane.showMessageDialog(null, "You make a perfect shot, and land on a half of heart.");
-											JOptionPane.showMessageDialog(null, "Do you want to run for it, or use your ender pearl.");
-											String o28 = JOptionPane.showInputDialog("1: Run for it   2: Enderpearl");
+											JOptionPane.showMessageDialog(null, "Do you want to keep running, or look for a safe spot.");
+											String o28 = JOptionPane.showInputDialog("1: Run for it   2: Look for a safe spot");
+
+											JOptionPane.showMessageDialog(null, "!!!continue!!! o28 1,2");
 
 											
 										}
@@ -299,9 +333,7 @@ if (o1.equals("1")) {
 					JOptionPane.showMessageDialog(null, "You get more obisidan, and you make a nether portal. You find some gravel, and light the portal.");
 					JOptionPane.showMessageDialog(null, "You decide you have nothing else to lose, and you go through it");
 
-					
-					///===DEATH===///
-					JOptionPane.showMessageDialog(null, "DEATH");
+					JOptionPane.showMessageDialog(null, "!!!continue!!!");
 
 				
 				}
@@ -320,13 +352,13 @@ if (o1.equals("1")) {
 	if (o2.equals("1")) {
 		JOptionPane.showMessageDialog(null, "You decide to explore the cave, and after exploring, you find a ruined portal.");
 		JOptionPane.showMessageDialog(null, "While looking around, you find a mineshaft");
-		JOptionPane.showMessageDialog(null, "You also find 2 diamonds while exploring a mineshaft.");
-		JOptionPane.showMessageDialog(null, "You decide that its no worth it to go the the nether");
-		JOptionPane.showMessageDialog(null, "You see an opening, but cant see anything in it");
+		JOptionPane.showMessageDialog(null, "You find 2 diamonds and continue looking around.");
+		JOptionPane.showMessageDialog(null, "You decide that its not worth it to go the the nether");
+		JOptionPane.showMessageDialog(null, "You see an opening above you, but cant see anything in it");
+		JOptionPane.showMessageDialog(null, "You decide to get some more blocks, and build up");
 
-		///===DEATH===///
-		JOptionPane.showMessageDialog(null, "DEATH");
-
+		JOptionPane.showMessageDialog(null, "!!!continue!!!");
+		
 	}
 
 		
@@ -362,17 +394,17 @@ if (o1.equals("2")) {
 				
 				if (o18.equals("2")) {
 				JOptionPane.showMessageDialog(null, "You go back down the cave, and look around. You accedently fall into a cave full of monsters, and die");
-				JOptionPane.showMessageDialog(null, "GO TO O2");
+				JOptionPane.showMessageDialog(null, "DEATH");
 
 				}
 				}
 		
 				if (o17.equals("2")) {
 				JOptionPane.showMessageDialog(null, "You get more wood. Now, you have enough for a full set of tools and a stack extra.");
-				String o19 = JOptionPane.showInputDialog("1: Explore the cave   2: Explore the land around");
+				String o19 = JOptionPane.showInputDialog("1: Explore the cave   2: Explore the land around you");
 
 							
-						if (o19.equals("2")) {
+						if (o19.equals("1")) {
 						JOptionPane.showMessageDialog(null, "You go back down the cave, and end up finding some diamonds.");
 						JOptionPane.showMessageDialog(null, "You walk twords them, and start hearing a strange noise");
 						JOptionPane.showMessageDialog(null, "You turm around to see a creeper blow you up, and kill you.");
@@ -407,8 +439,8 @@ if (o1.equals("2")) {
 			String o19 = JOptionPane.showInputDialog("1: Follow the one in front of you   2: Follow the one behind you");
 
 			if (o19.equals("1")) {
-				JOptionPane.showMessageDialog(null, "The one in front of you is a path way leading upwards, but its guarded by a lot of mobs");
-				JOptionPane.showMessageDialog(null, "The one behind you is guarded by very little mobs, but it leads back down");
+				JOptionPane.showMessageDialog(null, "You run to the one in front of you");
+				JOptionPane.showMessageDialog(null, "You start punching mobs, but are quickly overwhelmed");
 				String o20 = JOptionPane.showInputDialog("1: Follow the one in front of you   2: Follow the one behind you");
 
 				
@@ -417,12 +449,17 @@ if (o1.equals("2")) {
 					JOptionPane.showMessageDialog(null, "");
 					String o21 = JOptionPane.showInputDialog("1: !!!   2: !!!");
 					
+					JOptionPane.showMessageDialog(null, "!!!continue!!!");
+
 					}
 				
 				if (o20.equals("2")) {
 					JOptionPane.showMessageDialog(null, "");
 					JOptionPane.showMessageDialog(null, "");
 					String o21 = JOptionPane.showInputDialog("1: !!!   2: !!!");
+					
+					JOptionPane.showMessageDialog(null, "!!!continue!!!");
+
 					
 					}
 				
