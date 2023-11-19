@@ -291,18 +291,117 @@ if (o1.equals("1")) {
 									JOptionPane.showMessageDialog(null, "Do you want to make a run for it, or use your enderpearl");
 									String o23 = JOptionPane.showInputDialog("1: Make a run for it   2: Enderpearl");
 									
-									JOptionPane.showMessageDialog(null, "!!!continue!!! o23 1");
+									
+									if (o23.equals("1")) {
+										JOptionPane.showMessageDialog(null, "You decide to run for it.");
+										JOptionPane.showMessageDialog(null, "You get hit by a skeleton. Thanks to you chestplate, you only go down to 1 and a half heart");
+										JOptionPane.showMessageDialog(null, "You make it to a dead end, and see a spider quickly coming towards you");
+										String o28 = JOptionPane.showInputDialog("1: Run through it   2: Fight back");
+
+										if (o28.equals("1")) {
+											JOptionPane.showMessageDialog(null, "You try to run through the spider");
+											JOptionPane.showMessageDialog(null, "The spider hits you, getting you to half a heart");
+											JOptionPane.showMessageDialog(null, "You make it through, and run past all the other mobs");
+											JOptionPane.showMessageDialog(null, "You make it through, and run past all the other mobs");
+											JOptionPane.showMessageDialog(null, "You run away, and find a revine");
+											JOptionPane.showMessageDialog(null, "You see a zombie behind you");
+											JOptionPane.showMessageDialog(null, "You think to your self, 'Im not making it out of this alive'");
+											JOptionPane.showMessageDialog(null, "'I know what happens, I just need to get back here without loosing health'");
+
+											JOptionPane.showMessageDialog(null, "!!!Player proceds to 'restart' but can get back without loosing health!!!");
+											JOptionPane.showMessageDialog(null, "You make it back to where you were before, and decide to jump down");
+											JOptionPane.showMessageDialog(null, "You land on half a heart, and collect all your items");
+
+											JOptionPane.showMessageDialog(null, "You explore the revine, and see the end");
+											JOptionPane.showMessageDialog(null, "Suddently, it starts flashing, and blocks dissapear, revealing a mine shaft");
+											JOptionPane.showMessageDialog(null, "!!!player speaking!!! 'This is all a game, this isn't real'");
+											JOptionPane.showMessageDialog(null, "'I need to get out'  !!!player looks twards camera!!!  'Can you help me'");
+											JOptionPane.showMessageDialog(null, "You make it through, and run past all the other mobs");
+											String o29 = JOptionPane.showInputDialog("1: Help him   2: Leave him");
+
+											if (o29.equals("1")) {
+												JOptionPane.showMessageDialog(null, "You decide to help him");
+												JOptionPane.showMessageDialog(null, "Do you know any way out of this?");
+
+
+												String o30 = JOptionPane.showInputDialog("1: Die   2: Beat the game");
+												
+												if (o30.equals("1")) {
+													JOptionPane.showMessageDialog(null, "'Good idea' !!!player jumps down to mineshaft and dies, then respaws'");
+													JOptionPane.showMessageDialog(null, "It didn't work, it just made it worse. What do I do now");
+													String o31 = JOptionPane.showInputDialog("1: Die   2: Striketrough*Beat the game* Die");
+													
+													if (o31.equals("1") || o31.equals("2")) {
+														JOptionPane.showMessageDialog(null, "I already tried that");
+														JOptionPane.showMessageDialog(null, "!!!Text saying die is shown all around the screen!!!");
+														String o32 = JOptionPane.showInputDialog("1: Striketrough*Help* Die   2: Striketrough*Beat the game* Die");
+													
+														if (o32.equals("1") || o32.equals("2")) {
+															JOptionPane.showMessageDialog(null, "I-");
+															JOptionPane.showMessageDialog(null, "Video goes black, then shows go the option to restart");
+														
+														
+														}
+
+													}
+												}
+
+											}
+
+											
+											}
+										if (o28.equals("2")) {
+											JOptionPane.showMessageDialog(null, "You decide to fight back.");
+											JOptionPane.showMessageDialog(null, "You land a couple of hits on the spider, but it sneaks through and gets a hit on you");
+
+											JOptionPane.showMessageDialog(null, "!!!DEATH!!!");
+											
+										}
+
+										JOptionPane.showMessageDialog(null, "!!!continue!!! o28 2");
+										
+										
+									}
+
+									
 									
 									if (o23.equals("2")) {
 										JOptionPane.showMessageDialog(null, "You decide to enderpearl.");
-										JOptionPane.showMessageDialog(null, "You make a perfect shot, but land on one heart and a half.");
+										JOptionPane.showMessageDialog(null, "You make a perfect shot, but land on one and a helf heart.");
 										JOptionPane.showMessageDialog(null, "You make a run for it, but get shot by a skeleton.");
 										JOptionPane.showMessageDialog(null, "Luckly, you have armor, and you survive on half of a heart, and get back to saftey");
 										JOptionPane.showMessageDialog(null, "However its night, and you need food.");
 										JOptionPane.showMessageDialog(null, "Do you want to hide until day, or kill zombies to get food");
 										String o26 = JOptionPane.showInputDialog("1: Hide until day   2: Kill zombies");
 										
-										
+										JOptionPane.showMessageDialog(null, "!!!continue!!! o26 1,2");
+
+										if (o26.equals("1")) {
+											JOptionPane.showMessageDialog(null, "You decide to enderpearl.");
+											JOptionPane.showMessageDialog(null, "You make a perfect shot, but land on one heart and a half.");
+											JOptionPane.showMessageDialog(null, "You make a run for it, but get shot by a skeleton.");
+											JOptionPane.showMessageDialog(null, "Luckly, you have armor, and you survive on half of a heart, and get back to saftey");
+											JOptionPane.showMessageDialog(null, "However its night, and you need food.");
+											JOptionPane.showMessageDialog(null, "Do you want to hide until day, or kill zombies to get food");
+											String o27 = JOptionPane.showInputDialog("1: Hide until day   2: Kill zombies");
+											
+											JOptionPane.showMessageDialog(null, "!!!continue!!! o27 1,2");
+
+											
+										}
+										if (o23.equals("2")) {
+											JOptionPane.showMessageDialog(null, "You decide to enderpearl.");
+											JOptionPane.showMessageDialog(null, "You make a perfect shot, but land on one heart and a half.");
+											JOptionPane.showMessageDialog(null, "You make a run for it, but get shot by a skeleton.");
+											JOptionPane.showMessageDialog(null, "Luckly, you have armor, and you survive on half of a heart, and get back to saftey");
+											JOptionPane.showMessageDialog(null, "However its night, and you need food.");
+											JOptionPane.showMessageDialog(null, "Do you want to hide until day, or kill zombies to get food");
+											String o27 = JOptionPane.showInputDialog("1: Hide until day   2: Kill zombies");
+											
+											JOptionPane.showMessageDialog(null, "!!!continue!!! o27 1,2");
+											
+										}
+
 									}
 
 								}
@@ -317,11 +416,25 @@ if (o1.equals("1")) {
 										if (o27.equals("1")) {
 											JOptionPane.showMessageDialog(null, "You decide to run for it.");
 											JOptionPane.showMessageDialog(null, "You get hit by a skeleton, and end up on half a heart");
-											JOptionPane.showMessageDialog(null, "You make it to a dead end, and se a spider quickly coming towards you");
-											String o28 = JOptionPane.showInputDialog("1: Run for it   2: Enderpearl");
-
-											JOptionPane.showMessageDialog(null, "!!!continue!!! o28 1,2");
+											JOptionPane.showMessageDialog(null, "You make it to a dead end, and see a spider quickly coming towards you");
+											String o28 = JOptionPane.showInputDialog("1: Run through it   2: Fight back");
 											
+											
+											if (o28.equals("1")) {
+												JOptionPane.showMessageDialog(null, "You try to run through the spider");
+												JOptionPane.showMessageDialog(null, "However since your on helf a heart, the spider hits you and kills you");
+												
+												JOptionPane.showMessageDialog(null, "!!!DEATH!!!");
+												
+											}
+											if (o28.equals("2")) {
+												JOptionPane.showMessageDialog(null, "You decide to fight back.");
+												JOptionPane.showMessageDialog(null, "You land a couple of hits on the spider, but it sneaks through and gets a hit on you");
+
+												JOptionPane.showMessageDialog(null, "!!!DEATH!!!");
+												
+											}
+
 										}
 										
 										
@@ -330,7 +443,8 @@ if (o1.equals("1")) {
 											JOptionPane.showMessageDialog(null, "You make a perfect shot, and land on a half of heart.");
 											JOptionPane.showMessageDialog(null, "Do you want to keep running, or look for a safe spot.");
 											String o28 = JOptionPane.showInputDialog("1: Run for it   2: Look for a safe spot");
-
+											
+											
 											JOptionPane.showMessageDialog(null, "!!!continue!!! o28 1,2");
 
 											
