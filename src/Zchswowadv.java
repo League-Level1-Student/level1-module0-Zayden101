@@ -225,15 +225,34 @@ if (o1.equals("1")) {
 												JOptionPane.showMessageDialog(null, "You use wood to block yourself off");
 												JOptionPane.showMessageDialog(null, "With a clear way around you quickly make a crafting table, and craft a sword");
 
-
-
 												String o29 = JOptionPane.showInputDialog("1: Risk it   2: Leave it");
 
-												JOptionPane.showMessageDialog(null, "!!!continue!!! o28 2");
-
-											
+												
+												JOptionPane.showMessageDialog(null, "!!!continue!!! o29 1,2");
 										}
+											
+											if (o28.equals("2")) {
+												JOptionPane.showMessageDialog(null, "You decide to leave it");
+												JOptionPane.showMessageDialog(null, "You keep looking around, and see another minecart");
+												JOptionPane.showMessageDialog(null, "You make a run for it, and open the chest");
+												JOptionPane.showMessageDialog(null, "Before you can see what's in the chest, a skeleton that you couldn't see shoots you");
+												JOptionPane.showMessageDialog(null, "You fall into the pit of lava under you, and die");
+											
+												JOptionPane.showMessageDialog(null, "DEATH");
+										}
+
 										
+
+											if (o27.equals("2")) {
+												JOptionPane.showMessageDialog(null, "You want to look for an exit");
+												JOptionPane.showMessageDialog(null, "You keep looking around, and see another minecart");
+												JOptionPane.showMessageDialog(null, "You make a run for it, and open the chest");
+												JOptionPane.showMessageDialog(null, "Before you can see what's in the chest, a skeleton that you couldn't see shoots you");
+												JOptionPane.showMessageDialog(null, "You fall into the pit of lava under you, and die");
+											
+												JOptionPane.showMessageDialog(null, "DEATH");
+										}
+
 										JOptionPane.showMessageDialog(null, "!!!continue!!! o27 3");
 										
 									}
@@ -278,7 +297,7 @@ if (o1.equals("1")) {
 									JOptionPane.showMessageDialog(null, "You hear something, look up, and see a skeleton");
 									JOptionPane.showMessageDialog(null, "You jump down the revien, but get hit by an arrow before you can make it to the bottom");
 
-
+									JOptionPane.showMessageDialog(null, "DEATH");
 									///===DEATH===///
 
 								}
